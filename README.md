@@ -16,4 +16,4 @@ Each query file starts with a comment block covering the question, the SQL conce
 1. Install PostgreSQL and load Pagila using the instructions in the [Pagila repository](https://github.com/devrimgunduz/pagila).
 2. Connect to the `pagila` database (pgAdmin Query Tool or `psql`) and run any file in `queries/`.
 
-Written and tested on PostgreSQL <VERSION>.
+Written and tested on PostgreSQL 18.3.
