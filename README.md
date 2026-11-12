@@ -9,10 +9,11 @@ Each query file starts with a comment block covering the question, the SQL conce
 | # | Question | Concepts |
 |---|---|---|
 | 01 | [Top 3 customers by total paid, per store](queries/01_top_customers_per_store.sql) | CTEs, GROUP BY, window functions (`RANK` with `PARTITION BY`) |
+| 02 | [Revenue by film category](queries/02_revenue_by_category.sql) | 5-table joins, bridge tables, `COUNT(DISTINCT)`, inner-join pitfalls |
 
 ## Running the queries
 
 1. Install PostgreSQL and load Pagila using the instructions in the [Pagila repository](https://github.com/devrimgunduz/pagila).
 2. Connect to the `pagila` database (pgAdmin Query Tool or `psql`) and run any file in `queries/`.
 
-Written and tested on PostgreSQL 18.3.
+Written and tested on PostgreSQL <VERSION>.
