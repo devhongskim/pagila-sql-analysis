@@ -16,6 +16,9 @@ Notes:
     copy), so it needs DISTINCT. NOT EXISTS returns each film once.
   - Avoid NOT IN for anti-joins. If the subquery returns any NULL,
     NOT IN returns no rows at all. NOT EXISTS handles NULLs safely.
+  - Result: 42 films, all "No copies in inventory". Every film the stores
+    stocked was rented at least once, so the gap is a stocking issue,
+    not a demand issue.    
 */
 
 SELECT
