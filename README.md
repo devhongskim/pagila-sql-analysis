@@ -12,6 +12,7 @@ Each query file starts with a comment block covering the question, the SQL conce
 | 02 | [Revenue by film category](02_revenue_by_category.sql) | 5-table joins, bridge tables, `COUNT(DISTINCT)`, inner-join pitfalls |
 | 03 | [Month-over-month revenue](03_month_over_month_revenue.sql) | DATE_TRUNC, chained CTEs, `LAG()`, `NULLIF` |
 | 04 | [Films never rented](04_films_never_rented.sql) | Anti-join, `NOT EXISTS`, correlated subqueries |
+| 05 | [Late returns by customer](05_late_returns_by_customer.sql) | `INTERVAL` date math, `CASE`, `FILTER`, `HAVING` |
 
 ## Running the queries
 
